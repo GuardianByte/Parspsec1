@@ -1,4 +1,4 @@
-# Web Security Demo – SQL Injection & Mitigation with ModSecurity WAF
+<img width="1350" height="575" alt="Screenshot 2025-09-09 at 8 17 37 AM" src="https://github.com/user-attachments/assets/e14519b9-8cfd-488d-83ea-1423795a7ff3" /># Web Security Demo – SQL Injection & Mitigation with ModSecurity WAF
 
 ## 📌 Project Overview
 This project demonstrates:
@@ -36,6 +36,7 @@ sqlmap -u "http://3.87.88.51/page1.php" --data="username=test*&password=test" --
 ```
 ' OR '1'='1
 sqlmap -u "http://3.87.88.51/page2.php" --data="username=test*&password=test" --method=POST --dbms=mysql --technique=B --batch --dump
+<img width="1350" height="575" alt="Screenshot 2025-09-09 at 8 17 37 AM" src="https://github.com/user-attachments/assets/fa787a32-a055-4ba6-9718-ef144069ea9f" />
 ```
 ❌ Blocked by ModSecurity WAF.
 
