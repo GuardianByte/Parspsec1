@@ -1,4 +1,4 @@
-<img width="1350" height="575" alt="Screenshot 2025-09-09 at 8 17 37 AM" src="https://github.com/user-attachments/assets/e14519b9-8cfd-488d-83ea-1423795a7ff3" /># Web Security Demo – SQL Injection & Mitigation with ModSecurity WAF
+# Web Security Demo – SQL Injection & Mitigation with ModSecurity WAF
 
 ## 📌 Project Overview
 This project demonstrates:
