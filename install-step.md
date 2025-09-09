@@ -147,5 +147,8 @@ curl -v -X POST -d "username=' OR '1'='1' --&password=x" http://3.87.88.51/page1
 
 ``` bash
 curl -v -X POST -d "username=' OR '1'='1' --&password=x" http://3.87.88.51/page2.html
-# Expected: 403 Forbidden (blocked by ModSecurity)
+# Expected: Forbidden
+#You don't have permission to access this resource.
+
+
 ```
