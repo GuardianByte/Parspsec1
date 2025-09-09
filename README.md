@@ -3,7 +3,7 @@
 ## 📌 Project Overview
 This project demonstrates:
 1. A vulnerable login form (`page1.html`) exploitable via SQL Injection.
-2. A secure login form (`page2.php`) protected by **ModSecurity WAF**.
+2. A secure login form (`page2.html`) protected by **ModSecurity WAF**.
 
 The goal is to showcase how SQL Injection can be exploited and then mitigated using ModSecurity.
 
