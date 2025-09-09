@@ -139,14 +139,16 @@ apachectl -M | grep security2
 ### Vulnerable Page (page1)
 
 ``` bash
-curl -v -X POST -d "username=' OR '1'='1' --&password=x" http://3.87.88.51/page1.html
-# Expected: Login success
+http://3.87.88.51/page1.html
+' OR '1'='1
+# Expected: SQL Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1'='1' --'' at line 1
 ```
 
 ### Secure Page (page2)
 
 ``` bash
-curl -v -X POST -d "username=' OR '1'='1' --&password=x" http://3.87.88.51/page2.html
+http://3.87.88.51/page2.html
+' OR '1'='1
 # Expected: Forbidden
 #You don't have permission to access this resource.
 
