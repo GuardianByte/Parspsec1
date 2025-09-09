@@ -48,6 +48,12 @@ sqlmap -u "http://3.87.88.51/page2.php" --data="username=test*&password=test" --
 ```
 **❌ Blocked by Mod Security WAF.**
 
+<img width="1502" height="294" alt="Screenshot 2025-09-09 at 8 29 29 AM" src="https://github.com/user-attachments/assets/b4f4ed58-49cb-47a7-bcb8-d13f2fd06a11" />
+
+<img width="1505" height="651" alt="Screenshot 2025-09-09 at 8 29 33 AM" src="https://github.com/user-attachments/assets/a89def45-76f0-4975-af79-883ad729b78f" />
+
+<img width="1350" height="575" alt="Screenshot 2025-09-09 at 8 17 37 AM" src="https://github.com/user-attachments/assets/deb09bc3-8e77-448b-bfa4-56991782386c" />
+
 ---
 ## 📂 Deliverables
 - Vulnerable form: `http://3.87.88.51/page1.html`  
