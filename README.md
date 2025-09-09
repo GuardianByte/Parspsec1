@@ -16,7 +16,7 @@ The goal is to showcase how SQL Injection can be exploited and then mitigated us
 - **ModSecurity + OWASP CRS (Core Rule Set)**  
 - **Two Login Forms**  
   - `page1.html` → Vulnerable  
-  - `page2.php` → Secured by ModSecurity WAF
+  - `page2.html` → Secured by ModSecurity WAF
 ---
 
 ## 🔍 Testing SQL Injection
