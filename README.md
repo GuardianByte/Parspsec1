@@ -45,7 +45,7 @@ sqlmap -u "http://3.87.88.51/page2.php" --data="username=test*&password=test" --
 
 ## 📂 Deliverables
 - Vulnerable form: `http://3.87.88.51/page1.html`  
-- Secure form: `http://3.87.88.51/page2.php`  
+- Secure form: `http://3.87.88.51/page2.html`  
 
 ---
 
