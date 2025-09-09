@@ -51,10 +51,9 @@ sqlmap -u "http://3.87.88.51/page2.php" --data="username=test*&password=test" --
 - Provide IP + URLs  
 - GitHub repo with:
   - `README.md` (this file)  
-  - `page1.html`, `page1.php`, `page2.php`  
+  - `page1.html`, `page1.php`, `page2.html`, `page2.php`  
   - `setup.sql`  
-  - `install-instructions.md`  
-  - `Web_Security_Demo_Documentation.docx`  
+  - `install-step.md`  
 
 ---
 
