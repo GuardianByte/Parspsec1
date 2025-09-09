@@ -1,6 +1,5 @@
 
 # Project Title
-
 # Web Security Demo – SQL Injection & Mitigation with ModSecurity WAF
 
 ## 📌 Project Overview
